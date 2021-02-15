@@ -1,3 +1,5 @@
+// 二分查找算法
+
 #include <stdio.h>
 
 #define ARR_LEN 255
