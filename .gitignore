@@ -275,3 +275,4 @@ Build/
 *.pkf
 **/Xtensa/.setting/*
 .xmake/
+*.exe
