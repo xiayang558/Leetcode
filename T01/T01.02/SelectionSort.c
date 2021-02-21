@@ -3,7 +3,7 @@
 int SelectionSort(int *arr){
     int i, j;       //循环变量
     int MinIndex;   //最小值的下标
-    int len = sizeof(arr) / sizeof(arr);
+    int len = sizeof(arr) / sizeof(arr[0]);
     for(i = 0; i < len - 1; i++){       //n个数比较n-1次
         MinIndex = i;
         for(j = i + 1; j < len; j++){       //每轮比较n-1-i次
