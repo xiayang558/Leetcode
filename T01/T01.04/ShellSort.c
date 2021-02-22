@@ -2,11 +2,11 @@
 
 int ShellSort(int *arr){
     int _length = sizeof(arr)/sizeof(arr[0]);
-    d = _length/2;              // 确定固定增虽值
+    int d = _length/2;              // 确定固定增虽值
     int right;
     while (d >= 1)
     {
-        for (int i = d; i <= length; i++)
+        for (int i = d; i <= _length; i++)
         {
             int tmp = arr[i];        // 增加监视哨
             right = i - d;      // 确定要比较的最右边的位置
