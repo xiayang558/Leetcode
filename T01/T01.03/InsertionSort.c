@@ -8,7 +8,7 @@ int InsertionSort(int* arr){
         arrtmp = arr[i];
         count = i - 1;
 
-        while(count >= 0 & arr[count]>arrtmp){
+        while(count >= 0 && arr[count]>arrtmp){
             arr[count + 1] = arr[count];
             count--;
         }
